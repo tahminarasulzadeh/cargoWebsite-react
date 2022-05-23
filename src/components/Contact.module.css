@@ -1,0 +1,62 @@
+ .contact{
+     background-color: lavender;
+     min-height: 700px;
+     padding-top: 25px;
+     padding-left: 20px;
+ }
+ 
+ h1 {
+     color:darkslategray;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ p {
+     text-align: center;
+     color: grey;
+ }
+ .inp {
+   width: 355px;
+   padding-left: 15px;
+   margin-right: 20px;  
+  min-height: 40px;
+   border: 1px solid #ccc;
+   box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+ }
+ .inp2{
+    width:730px;
+    margin-top:30px;
+    min-height: 40px;
+ border-color: white;
+ border: 1px solid #ccc;
+ box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+ } 
+ .inp:focus{
+   border: 1px solid #ccc;
+     
+ }
+ .area{
+     width: 730px;
+     margin-top:30px ;
+     min-height: 100px;
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+ .btn {
+     background-color:#5d6b82 ;
+     color:#fff;
+     border-radius: 5px;
+     height: 40px;
+     font-weight: 600;
+     width: 120px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+     border: none;
+     cursor: pointer;
+     margin-top: 20px;
+ }
+ .btn:hover{
+     background-color:goldenrod;
+ }
+ .right {
+     /* margin-bottom:70px ; */
+     margin-left: 40px;
+ }

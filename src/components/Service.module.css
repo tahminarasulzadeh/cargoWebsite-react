@@ -1,0 +1,168 @@
+.service {
+    background-color: lavender;
+    min-height: 700px;
+    padding-top: 70px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+hr {
+    width: 150px;
+  
+    color:orange;
+
+  
+}
+.par{
+    font-size: medium;
+    color:grey;
+  text-align: center;
+    width: 550px ;
+   
+}
+.serviceItem{
+    display: flex;
+    justify-content: center;
+}
+.hrItem{
+     width: 120px;
+
+    border-top: 1px dotted orange;
+}
+.servicePar {
+    font-size: large;
+    color:grey;
+  text-align: left;
+    width: 430px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.vertical {
+
+    border-left: 2px solid gray;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.title {
+    font-size: x-large;
+    color:darkslategray;
+  text-align: left;
+   
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.itemOne{
+    display: flex;
+    justify-content: center;
+ padding-top: 20px;
+    width: 400px;
+    height: 120px;
+    border: 0.5px solid lightgrey;
+    
+    cursor:pointer; 
+    border-right: none;
+
+
+}
+
+.itemOne:hover {
+    animation : itemOne 1s  ease-out forwards;
+  
+    
+    
+}
+
+.itemOne:hover  .truck, .itemOne:hover  .title , .itemOne:hover  .itemPar  {
+    animation : truck 1s  ease-out forwards;
+
+}
+
+.itemOne:hover  .vertical {
+    animation : vertic 1s  ease-out forwards;
+
+    
+}
+
+.truck {
+    color: orange;
+  font-size: 55px;
+  margin-right: 40px;
+ 
+}
+/* .itemOne:hover + .truck{
+    animation : truck 2s  ease-out forwards;
+    
+} */
+
+.serviceBtn {
+    background-color: #5d6b82;
+    color: #fff;;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width:140px;
+    cursor: pointer;
+}
+
+.serviceBtn:hover{
+    animation : itemOne 2s  ease-out forwards;
+
+}
+
+@keyframes itemOne {
+    0% {
+        opacity : 0;
+
+    }
+    50% {
+        opacity: 1;
+        background-color: orange;
+
+    
+      }
+   
+    100% {
+       opacity: 1;
+       background-color: orange;
+
+    
+    }
+    }
+    @keyframes  truck {
+        0% {
+            opacity : 0;
+          
+          
+        }
+        50% {
+            opacity: 1;
+          color: #fff;
+        
+          }
+       
+        100% {
+           opacity: 1;
+          color: #fff
+        }
+        }
+
+        @keyframes  vertic {
+            0% {
+                opacity : 0;
+    border-left: 2px solid gray;
+              
+              
+            }
+            50% {
+                opacity: 1;
+    border-left: 2px solid #fff;
+              
+            
+              }
+           
+            100% {
+               opacity: 1;
+    border-left: 2px solid #fff;
+         
+            }
+            }
+
+        

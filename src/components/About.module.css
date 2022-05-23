@@ -1,0 +1,62 @@
+ h1 {
+     color:cadetblue;
+     text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .about {
+     background-color:lavender;
+     padding-top: 75px;
+     min-height: 700px;
+ }
+ hr {
+     width: 150px;
+ 
+     color:orange;
+
+   
+ }
+ .aboutItem {
+     display: flex;
+     justify-content: center;
+ }
+ .par {
+     width:470px;
+     height: 60px;
+ }
+  p {
+     font-size: medium;
+      color:grey
+ }
+ .aboutTitle {
+     text-align: left;
+     color:darkslategray;
+     font-size:40px;
+   
+ }
+.shoppingBag, .like{
+    color:orange;
+font-size: 35px;
+margin-top: 10px;
+margin-right: 10px;
+}
+.shoppingBag{
+    margin-left: 20px;
+
+}
+.paragraph {
+    font-size: 35px;
+    color: orange;
+}
+.person {
+    color:orange;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.pars {
+    margin-right: 66px;
+    margin-left: 40px;
+}
+#row {
+    margin-top :150px
+}
